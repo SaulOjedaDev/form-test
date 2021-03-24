@@ -282,6 +282,24 @@ function CreateFacilityForm({ defaultValues, getValuesForSubmit }) {
         onChange={handleChange}
         name="street2"
       />
+      <TextField
+        variant="outlined"
+        className={classes.input}
+        fullWidth
+        label="Fraccionamiento"
+        value={internalValues.street2}
+        onChange={handleChange}
+        name="street2"
+      />
+      <TextField
+        variant="outlined"
+        className={classes.input}
+        fullWidth
+        label="Fraccionamiento"
+        value={internalValues.street2}
+        onChange={handleChange}
+        name="street2"
+      />
     </div>
   );
 }
